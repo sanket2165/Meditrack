@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "692310113837",
+    "project_id": "device-streaming-424c2fb0",
+    "storage_bucket": "device-streaming-424c2fb0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692310113837:android:8b27c5332ee954de6082a4",
+        "android_client_info": {
+          "package_name": "com.example.meditrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692310113837-g2cqrrasun4pt66l1aikrjguiedibt3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meditrack",
+            "certificate_hash": "aaa971dd83377f29a05d88c96a06f3c2dd5f8144"
+          }
+        },
+        {
+          "client_id": "692310113837-dq3f55mh387iesshiftqfgsph5aindio.apps.googleusercontent.com",
+          "client_type": 3,
+          "android_info": {
+            "package_name": "com.example.meditrack",
+            "certificate_hash": "4dd4f5da0048692752375ffe05dfc6c3fad8973c1ec1662f2fc596c4a37ae117"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi7fmBh3ARlmtRjWr9IHGYKe8utJaYdAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692310113837-dq3f55mh387iesshiftqfgsph5aindio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

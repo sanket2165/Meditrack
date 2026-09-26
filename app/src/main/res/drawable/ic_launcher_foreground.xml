@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Center the logo content -->
+    <group android:translateX="0" android:translateY="0">
+        <path
+            android:pathData="M75,45h-10v-10c0,-2.8 -2.2,-5 -5,-5s-5,2.2 -5,5v10h-10c-2.8,0 -5,2.2 -5,5s2.2,5 5,5h10v10c0,2.8 2.2,5 5,5s5,-2.2 5,-5v-10h10c2.8,0 5,-2.2 5,-5S77.8,45 75,45z"
+            android:fillColor="#FFFFFF"/>
+        <path
+            android:pathData="M60,85c-13.8,0 -25,-11.2 -25,-25c0,-2.8 2.2,-5 5,-5s5,2.2 5,5c0,8.3 6.7,15 15,15s15,-6.7 15,-15c0,-2.8 2.2,-5 5,-5s5,2.2 5,5C85,73.8 73.8,85 60,85z"
+            android:fillColor="#FFFFFF"/>
+    </group>
+</vector>

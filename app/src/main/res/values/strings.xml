@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Meditrack</string>
+    <string name="login_title">Meditrack</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_prompt">Don\'t have an account? Register</string>
+    <string name="or_continue">─── or continue with ───</string>
+    <string name="role_patient">Patient</string>
+    <string name="role_doctor">Doctor</string>
+    <string name="social_google">Google</string>
+    <string name="social_facebook">Facebook</string>
+    <string name="social_phone">Phone</string>
+    <string name="forgot_email">Forgot Email?</string>
+    <string name="select_language">Language</string>
+</resources>

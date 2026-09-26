@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_meditrack_logo"
+            android:padding="8dp"
+            android:background="@drawable/circle_background_unselected"
+            android:contentDescription="Patient Icon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/tvPatientName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Patient Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvPatientProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progress: 0%"
+                android:textSize="14sp"
+                android:textColor="@color/text_grey" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivViewProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_myplaces"
+            android:padding="8dp"
+            android:layout_marginEnd="4dp"
+            app:tint="@color/blue_primary"
+            android:contentDescription="View Profile" />
+
+        <ImageView
+            android:id="@+id/ivCallPatient"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_call"
+            android:padding="8dp"
+            android:layout_marginEnd="4dp"
+            app:tint="#4CAF50"
+            android:contentDescription="Call Patient" />
+
+        <ImageView
+            android:id="@+id/ivWriteNote"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:padding="8dp"
+            android:layout_marginEnd="4dp"
+            app:tint="@color/blue_primary"
+            android:contentDescription="Write Note" />
+
+        <ImageView
+            android:id="@+id/ivPatientStatus"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/presence_online"
+            app:tint="#4CAF50" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

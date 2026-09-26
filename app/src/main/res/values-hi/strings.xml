@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">मेडिट्रैक</string>
+    <string name="login_title">मेडिट्रैक</string>
+    <string name="username_hint">यूज़रनेम</string>
+    <string name="password_hint">पासवर्ड</string>
+    <string name="btn_login">लॉगिन</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="register_prompt">अकाउंट नहीं है? रजिस्टर करें</string>
+    <string name="or_continue">─── या इसके साथ जारी रखें ───</string>
+    <string name="role_patient">मरीज</string>
+    <string name="role_doctor">डॉक्टर</string>
+    <string name="social_google">गूगल</string>
+    <string name="social_facebook">फेसबुक</string>
+    <string name="social_phone">फोन</string>
+    <string name="forgot_email">ईमेल भूल गए?</string>
+    <string name="select_language">भाषा चुनें</string>
+</resources>
